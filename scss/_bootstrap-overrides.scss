@@ -1,0 +1,30 @@
+.bg-primary, .btn-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $secondary !important;
+}
+
+.text-warning {
+  color: $yellow !important;
+}
+
+.bg-success {
+  background-color: $profile2 !important;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
+
+.progress {
+  height: 5px;
+  background: #c8c8c8;
+  border-radius: 5px;
+}
